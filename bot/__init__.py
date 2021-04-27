@@ -20,7 +20,7 @@ try:
     SUDO_USERS = list(set(int(x) for x in os.environ.get('SUDO_USERS').split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
-    SUPPORT_CHAT_LINK = os.environ.get('SUPPORT_CHAT_LINK', 'https://t.me/ViperCommunity')
+    SUPPORT_CHAT_LINK = os.environ.get('SUPPORT_CHAT_LINK', 'https://t.me/Yeageristbots')
   else:
     from bot.config import config
     BOT_TOKEN = config.BOT_TOKEN
